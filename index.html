@@ -11,6 +11,7 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id=html-section">
@@ -35,7 +36,7 @@
             <ul>
               <li>Heading tags start with an h and a number with a number increased as the level of the heading increases</li>
               <li>Paragraph tags ("p") allows text to be written in paragraph format</li>
-              <li>List tags include ordered/numbered lists ("ol") or unordered/bulleted lists("ul") with each item listed as "li"</li>
+              <li>List tags include ordered/numbered lists ("ol") or unordered/bulleted lists ("ul") with each item listed as "li"</li>
               <li>Images are inserted with "img" commands</li>
               <li>Breaks in texts are added with a "br /" command</li>
               <li>Hyperlinks or Anchors are inserted with the "a" command with "href" pointing to where you want the link to take you</li>
@@ -77,6 +78,18 @@
               <li>"Merge": after a PR is approved, the code in added to the main branch and deployed to the webpage</li>
               <li>"Issue": a way to report problems or to assign new tasks</li>
             </ul>
+          <li>Git commands in CLI</li>
+              <ul>
+                <li>"git status": show modified files in working directory, staged for your next commit</li>
+                <li>"git add -a": add a file as it looks now to your next commit</li>
+                <li>"git pull origin main": checks to see if current branch is up to date</li>
+                <li>"git push origin [branch name]: pushes changes in current branch to GitHub</li>
+                <li>"git branch": provides a list of your branches, a * will appear next to the currently active branch</li>
+                <li>"git branch [branch name]": create a new branch at the current commit</li>
+                <li>"git checkout [branch name]": switch to another branch and check it out into your working directory</li>
+                <li>"git checkout -b [name of new branch]": create a new branch off another branch</li>
+                <li>"git commit -m [descriptive message]: commits changes and adds a message describing the changes made</li>
+              </ul>
           <li>The GitHub Workflow</li>
               <ol>
                 <li>Create a branch</li>
@@ -85,24 +98,29 @@
                 <li>Address review comments</li>
                 <li>Merge pull request</li>
               </ol>
-          <li>Git commands in CLI</li>
-              <ul>
-                <li>"git status": show modified files in working directory, staged for your next commit</li>
-                <li>"git add": add a file as it looks now to your next commit</li>
-                <li>"git diff": diff of what is changed but not staged</li>
-                <li>"git branch": list your branches. a * will appear next to the currently active branch</li>
-                <li>"git branch [branch name]": create a new branch at the current commit</li>
-                <li>"git checkout": switch to another branch and check it out into your working directory</li>
-                <li>"git checkout -b [name of new branch]": create a new branch off another branch</li>
-                <li>"git commit -m [descriptive message]: commits changes and adds a message describing the changes made</li>
-              </ul>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>Javascript</h2>
         <ul>
-          <li>Enter your Javascript notes here</li>
+          <li>Variables allow you to store datapoints for later arguments</li>
+            <ul>
+              <li>"var" adds a variable</li>
+              <li>"=" assigns the variable to a datapoint</li>
+            </ul>
+          <li>Control Flow is the order the computer will perform certain operations</li>
+            <ul>
+              <li>If code is out of order, it will not function properly</li>
+              <li>Control Flow can be interupted with Conditional Statements and For Loops</li>
+            </ul>
+          <li>Arrays allow us to store several datapoints similarly to a variable</li>
+          <li>Functions are a set of instructions that the computer follows to perform a task</li>
+            <ul>
+              <li>Two steps: Define the function, then call the function</li>
+              <li>Defining the function involves naming the function and assigning code to it</li>
+              <li>Calling the function occurs at the bottom and is placed in a work order</li>
+            </ul>
         </ul>
       </section>
 
@@ -111,5 +129,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
